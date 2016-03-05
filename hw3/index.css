@@ -1,0 +1,19 @@
+body{
+    background-color: #f9f9f9;
+    margin: 0px 150px;
+}
+header{
+    background-color: #505050;
+    height: 40px;
+}
+nav{
+
+}
+button{
+    height: inherit;
+    background-color: #505050;
+}
+footer{
+    background-color: #505050;
+    height: 40px;
+}
