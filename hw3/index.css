@@ -33,14 +33,6 @@ ul{
 li{
     list-style-type: none;
 }
-footer{
-    background-color: #e1e1e1;
-    height: 40px;
-}
-.ARR{
-    float: right;
-    width: 16%;
-}
 .button_f{
     background-color: inherit;
     color: black;
@@ -63,3 +55,26 @@ footer{
      outline: auto;
      text-align: center;
  }
+ img{
+     float: right;
+     padding: 0 100px;
+     border: 1px solid #c8c8c8;
+     margin: 0;
+ }
+ div{
+     padding: 30px;
+ }
+ p{
+     float: right;
+     width: 675px;
+     padding: 5%;
+ }
+.ARR{
+    float: right;
+    width: 16%;
+}
+footer{
+    background-color: #e1e1e1;
+    height: 40px;
+    clear: both;
+}
