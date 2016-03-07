@@ -1,16 +1,53 @@
+html{
+    height: 100%;
+}
 body{
     background-color: #f9f9f9;
     margin: 0 15%;
+    height: 100%;
+    overflow-y: hidden;/*запрещает прокрутку*/
+    border-right: 2px solid #dbdbdb;
+    border-left: 2px solid #dbdbdb;
+}
+.container{
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 100%;
+    background-color: white;
+}
+header{
+    background-color: #505050;
+    height: 40px;
+}
+footer{
+    background-color: #e1e1e1;
+    height: 40px;
+    clear: both;
+    margin-top: 5%;
+}
+.menu{
+    display: inline;
+    height: inherit;
+}
+img{
+    float: right;
+    padding: 0 100px;
+    border: 1px solid #c8c8c8;
 }
 button{
     height: inherit;
     background-color: #505050;
     text-align: center;
-    position: relative;
     border: 0;
     padding: 15px;
     color: white;
     width: 15%;
+}
+ul{
+    height: 40px;
+}
+li{
+    list-style-type: none;
 }
 button:hover{
     background-color: #3a3a3a;
@@ -19,19 +56,6 @@ button:focus{
     color: gold;
     outline: none;
     background-color: #3a3a3a;
-}
-.main{
-    padding: 0 5%;
-}
-header{
-    background-color: #505050;
-    height: 40px;
-}
-ul{
-    height: 40px;
-}
-li{
-    list-style-type: none;
 }
 .button_f{
     background-color: inherit;
@@ -55,25 +79,14 @@ li{
      outline: auto;
      text-align: center;
  }
- img{
-     float: right;
-     padding: 0 100px;
-     border: 1px solid #c8c8c8;
- }
- div{
-     padding: 0;
- }
- p{
+ .Lorem{
      float: right;
      width: 675px;
+     padding-top: 40px;
+     padding-bottom: 40px;
  }
-.ARR{
+p{
+    display: inline;
     float: right;
-    width: 16%;
-    padding: 0 15px;
-}
-footer{
-    background-color: #e1e1e1;
-    height: 40px;
     clear: both;
 }
