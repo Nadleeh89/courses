@@ -71,7 +71,7 @@ a.a_h{
 a:hover{
     background-color: #3a3a3a;
 }
-a:focus{
+a:active{
     color: gold;
     outline: none;
     background-color: #3a3a3a;
