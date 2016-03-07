@@ -1,14 +1,16 @@
-html{
-    height: 100%;
+*{
+    margin: 0;
+    padding: 0;
 }
 body{
     background-color: #f9f9f9;
     margin: 0 15%;
     height: 100%;
-    overflow-y: hidden;/*запрещает прокрутку*/
+    /*overflow-y: hidden;запрещает прокрутку*/
     border-right: 2px solid #dbdbdb;
     border-left: 2px solid #dbdbdb;
 }
+
 .container{
     padding-right: 50px;
     padding-left: 50px;
@@ -18,12 +20,12 @@ body{
 header{
     background-color: #505050;
     height: 40px;
+    clear: both;
 }
 footer{
     background-color: #e1e1e1;
     height: 40px;
     clear: both;
-    margin-top: 5%;
 }
 .menu{
     display: inline;
@@ -33,47 +35,66 @@ img{
     float: right;
     padding: 0 100px;
     border: 1px solid #c8c8c8;
+    clear: both;
 }
-button{
-    height: inherit;
+a{
     background-color: #505050;
     text-align: center;
     border: 0;
-    padding: 15px;
+    padding: 1%;
     color: white;
-    width: 15%;
+    display: inline-block;
+    text-decoration: none;
 }
 ul{
-    height: 40px;
+    font-size: 0;
+    line-height: 0;
+    letter-spacing:-1px;
 }
 li{
-    list-style-type: none;
+    font-size: medium;
+    list-style: none;
+    line-height: normal;
+    letter-spacing: normal;
 }
-button:hover{
+a.a_n{
+    height: 10%;
+    width: 20%;
+    clear: both;
+}
+a.a_h{
+    height: inherit;
+    display: inline-block;
+    width: 10%;
+    clear: both;
+}
+a:hover{
     background-color: #3a3a3a;
 }
-button:focus{
+a:focus{
     color: gold;
     outline: none;
     background-color: #3a3a3a;
 }
-.button_f{
+.a_f{
     background-color: inherit;
     color: black;
     outline: none;
-}.button_f:focus,.button_f:hover{
+    width: 10%;
+    float: left;
+}.a_f:focus,.a_f:hover{
     background-color: inherit;
     color: black;
     text-decoration: underline;
  }
- .button_n{
+ .a_n{
      background-color: inherit;
      color: #656363;
      outline: auto;
      text-align: left;
      width: 20%;
  }
- .button_n:hover,.button_n:focus{
+ .a_n:hover,.a_n:focus{
      background-color: #f9f9f9;
      color: black;
      outline: auto;
@@ -85,8 +106,7 @@ button:focus{
      padding-top: 40px;
      padding-bottom: 40px;
  }
-p{
-    display: inline;
+p.menu{
     float: right;
-    clear: both;
+    padding-right: 2%;
 }
