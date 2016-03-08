@@ -88,6 +88,7 @@ h1{
 }
 .img{
     float: right;
+    border: 1px solid #c8c8c8;
 }
 .menu_f {
     background-color: #cccccc;
@@ -95,28 +96,21 @@ h1{
     overflow: hidden;
     margin: 60px 0;
 }
-
 .menu_f li {
     line-height: 40px;
     padding: 0 40px;
     float: left;
     list-style: none;
 }
-
 .menu_f a {
     display: block;
     text-decoration: none;
     color: #333333;
     font-size: 14px;
 }
-
 .menu_f a:hover {
     text-decoration: underline;
 }
-
 .menu_f li:last-child {
     float: right;
-}
-img{
-    border: 1px solid #c8c8c8;
 }
