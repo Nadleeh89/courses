@@ -14,6 +14,8 @@ h1{
     margin: 0 auto;
     padding: 0 45px 5px;
     width: 970px;
+    border-left: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
 }
 .header{
     background-color: #505050;
