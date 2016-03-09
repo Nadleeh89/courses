@@ -8,21 +8,32 @@ html{
 }
 body{
     background-image: url("pictures/panel.png");
+    background-position: center;
     background-repeat: no-repeat;
-    margin: 2% 10%;
+    margin: 0 auto;
     height: 100%;
+    width: 1018px;
 }
-.container {
-
+.header {
+    padding: 1% 4%;
+}
+.logo_img{
+    float: left;
+    padding-top: 4%;
+}
+ul.contacts{
+    list-style: none;
+    float: right;
+    color: #5fa5bb;
 }
 /*img{
     width: 100%;
 }
-.menu_header li{
+.menu_list li{
     float: left;
     list-style: none;
 }
-.menu_header a{
+.menu_list a{
     display: block;
     background-color: #343434;
     color: white;
